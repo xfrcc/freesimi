@@ -1,0 +1,31 @@
+{
+  "name": "freesimi",
+  "version": "1.0.0",
+  "description": "Free Simsimi Talk API Reverse Engineered from the App",
+  "main": "/src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfrcc/freesimi.git"
+  },
+  "keywords": [
+    "simsimi",
+    "freesimi",
+    "api",
+    "talkbot"
+  ],
+  "author": "xfrcc",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/xfrcc/freesimi/issues"
+  },
+  "homepage": "https://github.com/xfrcc/freesimi#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
