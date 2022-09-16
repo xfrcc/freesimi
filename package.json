@@ -1,6 +1,6 @@
 {
   "name": "freesimi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Free Simsimi Talk API Reverse Engineered from the App",
   "main": "./src/index.js",
   "directories": {
