@@ -45,6 +45,17 @@ Expects something like
 ```
 Where origin_sentenced is uncensored response.
 
+If it doesn't know how to answer, or text has emojis
+```
+{
+  detail: 'I do not know how to answer. Teach me the answer.'
+  }
+```
+```
+{
+  detail: 'Emoticons can not be understood.'
+  }
+```
 ## Arguments
 
 ```
@@ -57,7 +68,16 @@ language: Language you want to talk, see [Here](langCodes.md) for more.
 <br>
 level: Between 1 and 10, the higher it is, the more explicit it will be.
 <br>
+uid: userid (anonymous) generated from register
+<br>
 
+
+## TODO
+#### Teaching
+#### Talk to another simsimis
+#### Ban Handling
+#### User Accounts
+#### ????
 ## License
 This project is under license. see the file [LICENSE](LICENSE.md) for more details.
 

@@ -32,7 +32,7 @@ const initUser = () => new Promise((resolve, reject) => {
         url: 'https://beta-bumcoming.simsimi.com/user/user_register',
         data: options,
         headers: headers
-    }).then(response => resolve(response.data.regDate)).catch(reject);
+    }).then(response => resolve(response.data.uid)).catch(reject);
 });
 
 
